@@ -4,7 +4,7 @@ highlighter: pygments
 
 # Permalinks
 permalink: /posts/:title
-timezone: America/Sao_Paulo
+timezone: Asia/Kolkata
 
 # Setup
 title: Carlos Alexandro Becker
