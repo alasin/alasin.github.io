@@ -7,15 +7,15 @@ permalink: /posts/:title
 timezone: Asia/Kolkata
 
 # Setup
-title: Carlos Alexandro Becker
-description: 'Software development and related stuff, by Carlos A. Becker'
+title: Anuj Pahuja
+description: 'Just another dev blog.'
 baseurl:     ''
-url:         'http://carlosbecker.com'
+url:         'http://alasin.github.io'
 
 author:
-  name: 'Carlos Alexandro Becker'
-  url: https://twitter.com/caarlos0
-  email: caarlos0+formspree@gmail.com
+  name: 'Anuj Pahuja'
+  url: https://twitter.com/kmkzeanuj
+  email: anujpahuja13@gmail.com
 
 exclude:
   - Gemfile
@@ -39,8 +39,8 @@ animated: true
 
 # Social icons
 show_social_icons: true
-github_username: caarlos0
-twitter_username: caarlos0
+github_username: alasin
+twitter_username: kmkzeanuj
 
 google_analytics: UA-50435491-1
 disqus_shortname: caarlos0blog
