@@ -1,7 +1,3 @@
-# caarlos0.github.com [![Build Status](https://travis-ci.org/caarlos0/caarlos0.github.com.svg?branch=master)](https://travis-ci.org/caarlos0/caarlos0.github.com)
-
-Just [my personal blog](http://carlosbecker.com) sources.
-
 # Please read this!
 
 If you want to fork this repo to make your own blog or something, PLEASE change
