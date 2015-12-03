@@ -3,8 +3,6 @@ layout: post
 title: "Porting KDE Games: Progress Report"
 ---
 
-Hello everyone,
-
 As I mentioned in my last blog post, I'm working on porting KDE Games to KF5/Qt5. After porting the libkdegames project, I ported three games - KMines, KNavalBattle and KBounce to test how these build against the new libs. Everything works as expected as of now. Here are the screenshots of the three games:
 
 ![KMines](/public/images/kmines.png)
