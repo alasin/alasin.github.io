@@ -14,11 +14,11 @@ Clouds and cloud shadows often obscure parts of images acquired by satellites or
 
 **Digital Archive for Paintings - A text and content-based image retrieval system**
 
-**Optimizing human-machine task assignments for computer vision"
+**Optimizing human-machine task assignments for computer vision**
 
 **Rolling shutter rectification and image stabilization using IMU**
 
-**Ship-mounted camera simulator"
+**Ship-mounted camera simulator**
 
 **Real-time multiple image stitching and panorama generation**
 
