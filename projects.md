@@ -7,11 +7,11 @@ permalink: /projects/
 **GSoC '14 - KF5 port of KDE Games**
 
 This project was mostly about porting the [KDE Games](https://games.kde.org/) module to the new KDE Frameworks. The motivation behind the project was to keep KDE Games bit rot-free and maintained with respect to the latest libraries, as all the KDE applications were being ported. I specifically chose to work on KDE Games because I really enjoyed them playing on my Kubuntu distribution and had previously contributed to [KBounce](https://en.wikipedia.org/wiki/KBounce), the former being the reason for the latter. I also ported three standalone games including KBounce to the new frameworks as part of the project.
-Github links:
-[libkdegames](https://github.com/KDE/libkdegames)
-[KBounce](https://github.com/KDE/kbounce)
-[KMines](https://github.com/KDE/kmines)
-[KNavalBattle](https://github.com/KDE/knavalbattle)
+<br>Github links:<br>
+[libkdegames](https://github.com/KDE/libkdegames)<br>
+[KBounce](https://github.com/KDE/kbounce)<br>
+[KMines](https://github.com/KDE/kmines)<br>
+[KNavalBattle](https://github.com/KDE/knavalbattle)<br>
 
 **GSoC '15 - Cloud removal from satellite imagery for GeoTrellis**
 
