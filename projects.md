@@ -33,6 +33,15 @@ We tested our algorithms on [this](https://www.google.com/maps/place/Ompah,+ON,+
 
 **Digital Archive for Paintings - A text and content-based image retrieval system**
 
+Shekhawati paintings in Rajasthan have adorned the walls of havelis and houses since 17th century. This project aimed at creating a digital archive for these paintings and murals where we can search for digital paintings based on their annotations and image features. I did this Digital Humanities research project under the supervision of [Prof. Sundar S. Balasubramaniam](http://www.bits-pilani.ac.in/pilani/sundarb/profile) and [Prof. Geetha B.](http://universe.bits-pilani.ac.in/goa/geethab/Profile). <br>
+A simple tag and content-based image retrieval system was built for the web platform to facilitate image search through the database.
+
+Some snapshots:
+
+
+You can find the project code on [Github](https://github.com/alasin/Digital-Archive-CBIR).
+ 
+
 **Optimizing human-machine task assignments for computer vision**
 
 **Rolling shutter rectification and image stabilization using IMU**
