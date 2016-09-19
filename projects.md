@@ -36,7 +36,9 @@ We tested our algorithms on [this](https://www.google.com/maps/place/Ompah,+ON,+
 Shekhawati paintings in Rajasthan have adorned the walls of havelis and houses since 17th century. This project aimed at creating a digital archive for these paintings and murals where we can search for digital paintings based on their annotations and image features. I did this Digital Humanities research project under the supervision of [Prof. Sundar S. Balasubramaniam](http://www.bits-pilani.ac.in/pilani/sundarb/profile) and [Prof. Geetha B.](http://universe.bits-pilani.ac.in/goa/geethab/Profile). <br>
 A simple tag and content-based image retrieval system was built for the web platform to facilitate image search through the database.
 
-Some snapshots:
+*Some snapshots:*<br>
+[![image1](/public/images/t_search_thumb.png)](/public/images/t_search.png)
+[![image2](/public/images/i_search_thumb.png)](/public/images/i_search.jpg)
 
 
 You can find the project code on [Github](https://github.com/alasin/Digital-Archive-CBIR).
@@ -46,7 +48,7 @@ You can find the project code on [Github](https://github.com/alasin/Digital-Arch
 
 **Rolling shutter rectification and image stabilization using IMU**
 
-Rolling shutter artifacts are fairly common in CMOS sensors, which are used in almost all smartphones today. Add camera shake to that and you'll have an unstabilized video recording with rolling shutter distortion. During my internship at Tonbo Imaging, I made a prototype stabilized camera using an Invensense IMU that uses the gyrosensor measurements to stabilize the video in real-time and remove rolling shutter artifacts. Since gyrosensor records the change in angular momentum of the device in *X*, *Y* and *Z* directions, integrating the values over a *dt* time gives us the change in angular displacement which can be used to *shift* and rectify the image pixels accordingly. The algorithm was tested for thermal cameras as well, in which normal software stabilization fails owing to the lack of features. The algorithms were later ported on to Android as an app which used the inbuilt gyrosensor for required measurements. 
+Rolling shutter artifacts are fairly common in CMOS sensors, which are used in almost all smartphones today. Add camera shake to that and you'll have an unstabilized video recording with rolling shutter distortion. During my internship at Tonbo Imaging, I made a prototype stabilized camera using an Invensense IMU that uses the gyrosensor measurements to stabilize the video in real-time and remove rolling shutter artifacts. Since gyrosensor records the change in angular momentum of the device in *X*, *Y* and *Z* directions, integrating the values over a *dt* time gives us the change in angular displacement which can be used to *shift* and rectify the image pixels accordingly. The algorithm was tested for thermal cameras as well, in which normal software stabilization fails owing to the lack of features. The algorithms were later ported on to Android as an app which used the inbuilt gyrosensor for required measurements.
 
 **Ship-mounted camera simulator**
 
