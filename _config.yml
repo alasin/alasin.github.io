@@ -9,7 +9,7 @@ timezone: Asia/Kolkata
 # Setup
 title: Anuj Pahuja
 description: 'Just another dev blog.'
-baseurl:     'http://alasin.github.io/about'
+baseurl:     ''
 url:         'http://alasin.github.io'
 
 author:
