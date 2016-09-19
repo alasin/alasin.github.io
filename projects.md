@@ -40,13 +40,17 @@ Some snapshots:
 
 
 You can find the project code on [Github](https://github.com/alasin/Digital-Archive-CBIR).
- 
+
 
 **Optimizing human-machine task assignments for computer vision**
 
 **Rolling shutter rectification and image stabilization using IMU**
 
+Rolling shutter artifacts are fairly common in CMOS sensors, which are used in almost all smartphones today. Add camera shake to that and you'll have an unstabilized video recording with rolling shutter distortion. During my internship at Tonbo Imaging, I made a prototype stabilized camera using an Invensense IMU that uses the gyrosensor measurements to stabilize the video in real-time and remove rolling shutter artifacts. Since gyrosensor records the change in angular momentum of the device in *X*, *Y* and *Z* directions, integrating the values over a *dt* time gives us the change in angular displacement which can be used to *shift* and rectify the image pixels accordingly. The algorithm was tested for thermal cameras as well, in which normal software stabilization fails owing to the lack of features. The algorithms were later ported on to Android as an app which used the inbuilt gyrosensor for required measurements. 
+
 **Ship-mounted camera simulator**
+
+
 
 **Real-time multiple image stitching and panorama generation**
 
