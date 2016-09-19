@@ -8,4 +8,4 @@ Hi, I am Anuj. I recently completed by Bachelor's in Computer Science from BITS 
 
 Although my primary areas of interest are Computer Vision and Computational Photography, I love to explore different computing areas, having worked on a variety of hardware and software technologies. When I'm not working, I spend my time reading tech blogs, playing video games, watching thrillers and solving puzzles. I'm also a FOSS enthusiast.
 
-If you think I could be of some help or just wanna talk about something interesting, [_contact me_](/contact).
+If you think I could be of some help or just wanna talk about something interesting, [_contact me_](mailto:anujpahuja13@gmail.com).
