@@ -61,7 +61,7 @@ Efficacy of camera systems cannot be determined accurately without testing its p
 The simulated environment needs to account for the periodic and non-periodic environmental changes and be customizable as per the software needs. This project dealt with creating such a virtual ocean environment which allows user to test camera systems with different zoom levels, field-of-view and focal lengths on a single virtual platform. It also allows user to customize the ocean scene (wave height, wind speed, reflections etc.) depending upon the user’s requirements.
 It can, therefore, serve as a preliminary test for testing the camera performance, measuring tracking accuracy and marking targets under a variety of otherwise unforeseeable scenarios.
 
-[Click here](https://www.dropbox.com/s/3nmmpzhayfcsweg/Terrain_simulator.mp4?dl=0) for a demo video.
+<a href="https://www.dropbox.com/s/3nmmpzhayfcsweg/Terrain_simulator.mp4?dl=0" target="_blank">Click here</a> for a demo video.
 
 
 **Real-time multiple image stitching and panorama generation**
