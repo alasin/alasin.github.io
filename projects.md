@@ -7,7 +7,8 @@ permalink: /projects/
 **GSoC '14 - KF5 port of KDE Games**
 
 This project was mostly about porting the [KDE Games](https://games.kde.org/) module to the new KDE Frameworks. The motivation behind the project was to keep KDE Games bit rot-free and maintained with respect to the latest libraries, as all the KDE applications were being ported. I specifically chose to work on KDE Games because I really enjoyed them playing on my Kubuntu distribution and had previously contributed to [KBounce](https://en.wikipedia.org/wiki/KBounce), the former being the reason for the latter. I also ported three standalone games including KBounce to the new frameworks as part of the project.
-<br>Github links:<br>
+
+<u>Github links</u>:<br>
 [libkdegames](https://github.com/KDE/libkdegames)<br>
 [KBounce](https://github.com/KDE/kbounce)<br>
 [KMines](https://github.com/KDE/kmines)<br>
@@ -16,11 +17,14 @@ This project was mostly about porting the [KDE Games](https://games.kde.org/) mo
 **GSoC '15 - Cloud removal from satellite imagery for GeoTrellis**
 
 [GeoTrellis](http://geotrellis.io/) is an open-source, scala-based geospatial data processing framework.
-Clouds and cloud shadows often obscure parts of images acquired by satellites or other space-borne sensors. However, useful image data could be extracted from other relatively non-cloudy images of the same geographical location that can be used to 'fill' these obscure parts. When combined together with the right algorithms, these images can offer a cloud-free (or nearly cloud-free) view of that area.<br>
-This project aimed to enable GeoTrellis to remove clouds from a large set of imagery. Combined with it's power to process large amount of raster data, it would enable users to run this process over any amount of imagery, in a scalable way. Scala was a completely new language for me before the start of the project, but my mentor [Rob](http://www.azavea.com/about-us/staff-profiles/rob-emanuele/), was a great guide throughout the project.<br>
+Clouds and cloud shadows often obscure parts of images acquired by satellites or other space-borne sensors. However, useful image data could be extracted from other relatively non-cloudy images of the same geographical location that can be used to 'fill' these obscure parts. When combined together with the right algorithms, these images can offer a cloud-free (or nearly cloud-free) view of that area.
+
+This project aimed to enable GeoTrellis to remove clouds from a large set of imagery. Combined with it's power to process large amount of raster data, it would enable users to run this process over any amount of imagery, in a scalable way. Scala was a completely new language for me before the start of the project, but my mentor [Rob](http://www.azavea.com/about-us/staff-profiles/rob-emanuele/), was a great guide throughout the project.
+
 We tested our algorithms on [this](https://www.google.com/maps/place/Ompah,+ON,+Canada/@45.0291377,-76.7892811,13630m/data=!3m1!1e3!4m5!3m4!1s0x4cd24d3c2a575b1b:0x13e80edfa856300!8m2!3d45.0081417!4d-76.8357792) geographical location as it's cloudy and snowy here most part of the year.
 
-*Some input images:*<br>
+<u>Some input images:</u>
+
 [![image1](/public/images/image0_thumb.png)](/public/images/image0.png)
 [![image2](/public/images/image1_thumb.png)](/public/images/image1.png)
 [![image3](/public/images/image2_thumb.png)](/public/images/image2.png)
@@ -28,15 +32,18 @@ We tested our algorithms on [this](https://www.google.com/maps/place/Ompah,+ON,+
 [![image5](/public/images/image4_thumb.png)](/public/images/image4.png)
 [![image6](/public/images/image5_thumb.png)](/public/images/image5.png)
 
-*Resultant image:*<br>
+<u>Resultant image:</u>
+
 [![image6](/public/images/cloudlessimage_thumb.png)](/public/images/cloudlessimage.png)
 
 **Digital Archive for Paintings - A text and content-based image retrieval system**
 
-Shekhawati paintings in Rajasthan have adorned the walls of havelis and houses since 17th century. This project aimed at creating a digital archive for these paintings and murals where we can search for digital paintings based on their annotations and image features. I did this Digital Humanities research project under the supervision of [Prof. Sundar S. Balasubramaniam](http://www.bits-pilani.ac.in/pilani/sundarb/profile) and [Prof. Geetha B.](http://universe.bits-pilani.ac.in/goa/geethab/Profile). <br>
+Shekhawati paintings in Rajasthan have adorned the walls of havelis and houses since 17th century. This project aimed at creating a digital archive for these paintings and murals where we can search for digital paintings based on their annotations and image features. I did this Digital Humanities research project under the supervision of [Prof. Sundar S. Balasubramaniam](http://www.bits-pilani.ac.in/pilani/sundarb/profile) and [Prof. Geetha B.](http://universe.bits-pilani.ac.in/goa/geethab/Profile).
+
 A simple tag and content-based image retrieval system was built for the web platform to facilitate image search through the database.
 
-*Some snapshots:*<br>
+<u>Some snapshots:</u>
+
 [![image1](/public/images/t_search_thumb.png)](/public/images/t_search.png)
 [![image2](/public/images/i_search_thumb.png)](/public/images/i_search.jpg)
 
@@ -58,7 +65,9 @@ Rolling shutter artifacts are fairly common in CMOS sensors, which are used in a
 **Ship-mounted camera simulator**
 
 Efficacy of camera systems cannot be determined accurately without testing its performance on real-time scenarios. Since datasets from oceans, deserts and other terrains cannot be easily obtained, there is a need to simulate these scenarios so that the software can be tested in these virtual environments and necessary changes could be made to it.
-The simulated environment needs to account for the periodic and non-periodic environmental changes and be customizable as per the software needs. This project dealt with creating such a virtual ocean environment which allows user to test camera systems with different zoom levels, field-of-view and focal lengths on a single virtual platform. It also allows user to customize the ocean scene (wave height, wind speed, reflections etc.) depending upon the user’s requirements.
+The simulated environment needs to account for the periodic and non-periodic environmental changes and be customizable as per the software needs.
+
+This project dealt with creating such a virtual ocean environment which allows user to test camera systems with different zoom levels, field-of-view and focal lengths on a single virtual platform. It also allows user to customize the ocean scene (wave height, wind speed, reflections etc.) depending upon the user’s requirements.
 It can, therefore, serve as a preliminary test for testing the camera performance, measuring tracking accuracy and marking targets under a variety of otherwise unforeseeable scenarios.
 
 <a href="https://www.dropbox.com/s/3nmmpzhayfcsweg/Terrain_simulator.mp4?dl=0" target="_blank">Click here</a> for a demo video.
