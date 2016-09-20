@@ -57,6 +57,11 @@ Rolling shutter artifacts are fairly common in CMOS sensors, which are used in a
 
 **Ship-mounted camera simulator**
 
+Efficacy of camera systems cannot be determined accurately without testing its performance on real-time scenarios. Since datasets from oceans, deserts and other terrains cannot be easily obtained, there is a need to simulate these scenarios so that the software can be tested in these virtual environments and necessary changes could be made to it.
+The simulated environment needs to account for the periodic and non-periodic environmental changes and be customizable as per the software needs. This project dealt with creating such a virtual ocean environment which allows user to test camera systems with different zoom levels, field-of-view and focal lengths on a single virtual platform. It also allows user to customize the ocean scene (wave height, wind speed, reflections etc.) depending upon the user’s requirements.
+It can, therefore, serve as a preliminary test for testing the camera performance, measuring tracking accuracy and marking targets under a variety of otherwise unforeseeable scenarios.
+
+[Click here](https://www.dropbox.com/s/3nmmpzhayfcsweg/Terrain_simulator.mp4?dl=0) for a demo video.
 
 
 **Real-time multiple image stitching and panorama generation**
@@ -64,6 +69,9 @@ Rolling shutter artifacts are fairly common in CMOS sensors, which are used in a
 **Real-time motion detection and object tracking**
 
 **iJADE based weather monitoring system**
+
+I studied the Multi Agent System architecture and it’s application to a Weather Monitoring System which studies
+the given weather data, processes it and makes prediction using Neuro-Fuzzy algorithms. As part of the project, I created a Java/JADE based prototype agent that automatically logs and compares yearly rainfall data over the past 5 years.
 
 **Automated image manipulation and calibration framework for a novel lensometry algorithm**
 
