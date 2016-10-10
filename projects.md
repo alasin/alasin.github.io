@@ -73,7 +73,18 @@ It can, therefore, serve as a preliminary test for testing the camera performanc
 <a href="https://www.dropbox.com/s/3nmmpzhayfcsweg/Terrain_simulator.mp4?dl=0" target="_blank">Click here</a> for a demo video.
 
 
-**Real-time multiple image stitching and panorama generation**
+**Real-time multiple image fusion and panorama generation**
+
+The project involved fusing multiple visible camera images with IR images digitally and stitching them together for an enhanced driver vision system. The algorithms worked at >25 FPS on an embedded board for four video streams (2 visible + 2 IR). The work was extended to work for 24 camera streams (12 visible + 12 IR) with the complete panorama output being streamed out in real-time.
+
+<u>Sample Images</u>
+
+[![image1](/public/images/left-thumb.png)](/public/images/left.png)
+[![image2](/public/images/right-thumb.png)](/public/images/right.png)
+
+<u>Result</u>
+
+[![image3](/public/images/pano-thumb.png)](/public/images/pano.png)
 
 **Real-time motion detection and object tracking**
 
