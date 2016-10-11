@@ -98,3 +98,7 @@ the given weather data, processes it and makes prediction using Neuro-Fuzzy algo
 **Automated image manipulation and calibration framework for a novel lensometry algorithm**
 
 **TIFF Image Compressor**
+
+The project involved creating a Java based application to compress large medical Images of .TIF format using different lossless image compression algorithms (LZW, Packbits etc.) and comparing the efficiencies of those algorithms based on the compression ratio obtained.
+
+Code is available [here](https://github.com/alasin/TIFFCompressor).
