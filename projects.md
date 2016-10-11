@@ -4,16 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-**GSoC '14 - KF5 port of KDE Games**
-
-This project was mostly about porting the [KDE Games](https://games.kde.org/) module to the new KDE Frameworks. The motivation behind the project was to keep KDE Games bit rot-free and maintained with respect to the latest libraries, as all the KDE applications were being ported. I specifically chose to work on KDE Games because I really enjoyed them playing on my Kubuntu distribution and had previously contributed to [KBounce](https://en.wikipedia.org/wiki/KBounce), the former being the reason for the latter. I also ported three standalone games including KBounce to the new frameworks as part of the project.
-
-<u>Github links</u>:<br>
-[libkdegames](https://github.com/KDE/libkdegames)<br>
-[KBounce](https://github.com/KDE/kbounce)<br>
-[KMines](https://github.com/KDE/kmines)<br>
-[KNavalBattle](https://github.com/KDE/knavalbattle)<br>
-
 **GSoC '15 - Cloud removal from satellite imagery for GeoTrellis**
 
 [GeoTrellis](http://geotrellis.io/) is an open-source, scala-based geospatial data processing framework.
@@ -35,6 +25,7 @@ We tested our algorithms on [this](https://www.google.com/maps/place/Ompah,+ON,+
 <u>Resultant image:</u>
 
 [![image6](/public/images/cloudlessimage_thumb.png)](/public/images/cloudlessimage.png)
+
 
 **Digital Archive for Paintings - A text and content-based image retrieval system**
 
@@ -58,10 +49,6 @@ This project was done as a part of [Aspiring Researcher Challenge](https://aspir
 Code and results can be found [here](https://github.com/alasin/DenseMatrix-AR) and [here](https://github.com/gcr/arc-evaluator).
 
 
-**Rolling shutter rectification and image stabilization using IMU**
-
-Rolling shutter artifacts are fairly common in CMOS sensors, which are used in almost all smartphone cameras today. Add camera shake to that and you'll have an unstabilized video recording with rolling shutter distortion. During my internship at Tonbo Imaging, I made a prototype stabilized camera using an Invensense IMU that uses the gyrosensor measurements to stabilize the video in real-time and remove rolling shutter artifacts. Since gyrosensor records the change in angular momentum of the device in *X*, *Y* and *Z* directions, integrating the values over a *dt* time gives us the change in angular displacement which can be used to *shift* and rectify the image pixels accordingly. The algorithm was tested for thermal cameras as well, in which normal software stabilization fails owing to the lack of features. The algorithms were later ported on to Android as an app which used the inbuilt gyrosensor for required measurements.
-
 **Ship-mounted camera simulator**
 
 Efficacy of camera systems cannot be determined accurately without testing its performance on real-time scenarios. Since datasets from oceans, deserts and other terrains cannot be easily obtained, there is a need to simulate these scenarios so that the software can be tested in these virtual environments and necessary changes could be made to it.
@@ -71,6 +58,11 @@ This project dealt with creating such a virtual ocean environment which allows u
 It can, therefore, serve as a preliminary test for testing the camera performance, measuring tracking accuracy and marking targets under a variety of otherwise unforeseeable scenarios.
 
 <a href="https://www.dropbox.com/s/3nmmpzhayfcsweg/Terrain_simulator.mp4?dl=0" target="_blank">Click here</a> for a demo video.
+
+
+**Rolling shutter rectification and image stabilization using IMU**
+
+Rolling shutter artifacts are fairly common in CMOS sensors, which are used in almost all smartphone cameras today. Add camera shake to that and you'll have an unstabilized video recording with rolling shutter distortion. During my internship at Tonbo Imaging, I made a prototype stabilized camera using an Invensense IMU that uses the gyrosensor measurements to stabilize the video in real-time and remove rolling shutter artifacts. Since gyrosensor records the change in angular momentum of the device in *X*, *Y* and *Z* directions, integrating the values over a *dt* time gives us the change in angular displacement which can be used to *shift* and rectify the image pixels accordingly. The algorithm was tested for thermal cameras as well, in which normal software stabilization fails owing to the lack of features. The algorithms were later ported on to Android as an app which used the inbuilt gyrosensor for required measurements.
 
 
 **Real-time multiple image fusion and panorama generation**
@@ -86,14 +78,22 @@ The project involved fusing multiple visible camera images with IR images digita
 
 [![image3](/public/images/pano-thumb.png)](/public/images/pano.png)
 
+
 **Real-time motion detection and object tracking**
 
 Developed efficient algorithms for blob detection, registration and prediction for a generalized object tracker. The system was deployed on an embedded device where it worked >25 FPS for a 512x512 image.
 
-**iJADE based weather monitoring system**
 
-I studied the Multi Agent System architecture and it’s application to a Weather Monitoring System which studies
-the given weather data, processes it and makes prediction using Neuro-Fuzzy algorithms. As part of the project, I created a Java/JADE based prototype agent that automatically logs and compares yearly rainfall data over the past 5 years.
+**GSoC '14 - KF5 port of KDE Games**
+
+This project was mostly about porting the [KDE Games](https://games.kde.org/) module to the new KDE Frameworks. The motivation behind the project was to keep KDE Games bit rot-free and maintained with respect to the latest libraries, as all the KDE applications were being ported. I specifically chose to work on KDE Games because I really enjoyed them playing on my Kubuntu distribution and had previously contributed to [KBounce](https://en.wikipedia.org/wiki/KBounce), the former being the reason for the latter. I also ported three standalone games including KBounce to the new frameworks as part of the project.
+
+<u>Github links</u>:<br>
+[libkdegames](https://github.com/KDE/libkdegames)<br>
+[KBounce](https://github.com/KDE/kbounce)<br>
+[KMines](https://github.com/KDE/kmines)<br>
+[KNavalBattle](https://github.com/KDE/knavalbattle)<br>
+
 
 **Automated image manipulation and calibration framework for a novel lensometry algorithm**
 
@@ -102,3 +102,9 @@ the given weather data, processes it and makes prediction using Neuro-Fuzzy algo
 The project involved creating a Java based application to compress large medical Images of .TIF format using different lossless image compression algorithms (LZW, Packbits etc.) and comparing the efficiencies of those algorithms based on the compression ratio obtained.
 
 Code is available [here](https://github.com/alasin/TIFFCompressor).
+
+
+**iJADE based weather monitoring system**
+
+I studied the Multi Agent System architecture and it’s application to a Weather Monitoring System which studies
+the given weather data, processes it and makes prediction using Neuro-Fuzzy algorithms. As part of the project, I created a Java/JADE based prototype agent that automatically logs and compares yearly rainfall data over the past 5 years.
