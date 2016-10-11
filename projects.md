@@ -88,6 +88,8 @@ The project involved fusing multiple visible camera images with IR images digita
 
 **Real-time motion detection and object tracking**
 
+Developed efficient algorithms for blob detection, registration and prediction for a generalized object tracker. The system was deployed on an embedded device where it worked >25 FPS for a 512x512 image.
+
 **iJADE based weather monitoring system**
 
 I studied the Multi Agent System architecture and it’s application to a Weather Monitoring System which studies
