@@ -97,6 +97,8 @@ This project was mostly about porting the [KDE Games](https://games.kde.org/) mo
 
 **Automated image manipulation and calibration framework for a novel lensometry algorithm**
 
+Worked with [Dr. Tim Poston](https://en.wikipedia.org/wiki/Tim_Poston) on a novel lensometry algorithm. I developed automatic calibration and registration procedures for relating a ground-truth color image with a photograph of the same image taken through a lens. The relation described the color changes and the mathematical  pattern and deviation these color changes follow when passed through a lens.
+
 **TIFF Image Compressor**
 
 The project involved creating a Java based application to compress large medical Images of .TIF format using different lossless image compression algorithms (LZW, Packbits etc.) and comparing the efficiencies of those algorithms based on the compression ratio obtained.
