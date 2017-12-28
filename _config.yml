@@ -33,7 +33,8 @@ sass:
 paginate: 5
 
 # Custom vars
-show_related_posts: true
+show_related_posts: false
+show_social_icons: true
 
 
 # please change ALL items bellow if you are forking my repo!
@@ -44,6 +45,9 @@ description: 'Vision, Graphics and everything pixely.'
 baseurl:     ''
 google_analytics: UA-70927836-1
 disqus_shortname: alasin
+github_username: alasin
+twitter_username: kmkzeanuj
+linkedin_username: anujpahuja
 
 author:
   name: 'Anuj Pahuja'
