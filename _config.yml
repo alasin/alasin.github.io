@@ -1,47 +1,52 @@
 # Dependencies
-markdown: kramdown
-highlighter: rouge
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
 
 # Permalinks
-permalink: /posts/:title
+permalink: /posts/:title/
 timezone: Asia/Kolkata
-
-# Setup
-title: Anuj Pahuja
-description: 'Just another dev blog.'
-baseurl:     ''
-url:         'http://alasin.github.io/'
-
-author:
-  name: 'Anuj Pahuja'
-  url: https://twitter.com/kmkzeanuj
-  email: anujpahuja13@gmail.com
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - bin
+  - README.md
+  - LICENSE.md
+  - .sass-cache
+  - .travis.yml
+  - .ruby-version
+  - .gitignore
 
 gems:
-  # - jekyll-mentions
-  - jemoji
+  - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 sass:
   sass_dir: _scss
-  compressed: true
+  style: compressed
 
-paginate: 3
+paginate: 5
 
 # Custom vars
 show_related_posts: true
-animated: true
 
-# Social icons
-show_social_icons: true
-github_username: alasin
-twitter_username: kmkzeanuj
-linkedin_username: anujpahuja
 
+# please change ALL items bellow if you are forking my repo!
+# you may also want to edit about.md and delete all posts and images.
+
+title: Anuj Pahuja
+description: 'Vision, Graphics and everything pixely.'
+baseurl:     ''
 google_analytics: UA-70927836-1
 disqus_shortname: alasin
+
+author:
+  name: 'Anuj Pahuja'
+  email: anujpahuja13@gmail.com
+  github: alasin
+  twitter: kmkzeanuj

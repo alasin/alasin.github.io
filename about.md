@@ -1,11 +1,27 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
+permalink: "/about/"
 ---
 
-Hi, I am Anuj. I recently completed my Bachelor's in Computer Science from BITS Pilani, India. I have been working as a Computer Vision engineer at Tonbo Imaging since July '15. My experience as an intern here was great, which eventually made me join the firm as a full-time employee.
+Carlos is a software developer based in Joinville, Brazil. He currently works
+as site reliability engineer for [ContaAzul](http://contaazul.com).
 
-Although my primary areas of interest are Computer Vision and Computational Photography, I love to explore different computing areas, having worked on a variety of hardware and software technologies. When I'm not working, I spend my time reading tech blogs, playing video games, watching thrillers and solving puzzles. I'm also a FOSS enthusiast.
+When not working, he's [blogging](http://carlosbecker.com),
+hacking on [open source](https://github.com/caarlos0),
+[reading books](https://goodreads.com/caarlos0),
+lifting weights and learning new things.
 
-If you think I could be of some help or just wanna talk about something interesting, [_contact me_](mailto:anujpahuja13@gmail.com).
+Carlos is interested in programming languages, containers and infrastructure as
+code. Currently he is doing a lot of Java and Go code and playing around with
+Docker, Kubernetes, Ansible and Bash script.
+
+![me and my wife](/public/images/about.jpg)
+
+He's married to the [beautiful girl](http://twitter.com/carinemeyer) in the
+photo and lives with her and their Chinchila,
+[Zakk](http://www.youtube.com/watch?v=YtWlIPGpxTc),
+in [Joinville - SC, Brazil](http://goo.gl/maps/9tvI4).
+
+Wanna talk about something, hire me or are looking for a consultant?
+[**Send me an email!**](/contact)

@@ -1,18 +1,32 @@
-.post-content {
-  text-align: justify;
-  iframe.video,
-  iframe.ted,
-  iframe.twitter-tweet,
-  img {
-    margin: 20px 0;
-    border-radius: 3px;
-  }
-}
 img.emoji {
   box-shadow: none;
   margin: 0;
 }
 
-.github-cards {
-  text-align: center;
+pre {
+  overflow-x: visible;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+twitterwidget {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.post-content {
+  iframe.video,
+  iframe.ted,
+  img {
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  ul,
+  ol {
+    font-weight: 300;
+  }
 }
