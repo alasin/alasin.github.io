@@ -106,9 +106,9 @@ table {
     > tr {
       > th,
       > td {
-        padding: 12px;
+        padding: 10px;
         line-height: 1.2;
-        vertical-align: top;
+        vertical-align: center;
         border-top: 1px solid #333;
       }
     }
@@ -116,7 +116,7 @@ table {
   // Bottom align for column headings
   > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #333;
+    border-bottom: 1px solid #333;
   }
   // Remove top border from thead by default
   > caption + thead,
